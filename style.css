@@ -1,0 +1,173 @@
+
+body {
+    font-size: 16px;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #07345e;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.task {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(26, 115, 156);
+    border-radius: 28px;
+    border-bottom: orange 3px solid;
+}
+
+p {
+    font-size: 30px;
+    color: orange;
+}
+
+.icon:hover {
+    font-size: 26px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.icon-star,
+.icon-trash {
+    opacity: 0.4;
+    font-size: 27px;
+}
+
+.icon-star:hover {
+    color: orange;
+    opacity: 1;
+    font-size: 29px;
+}
+
+.icon-trash {
+    margin-right: 10px;
+    font-size: 27px;
+}
+
+.icon-trash:hover {
+    color: rgb(255, 242, 217);
+    font-size: 29px;
+    opacity: 1;
+}
+
+.icon-angry2 {
+    color: rgb(247, 219, 97);
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+form {
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 25px;
+    width: 35vw;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(8, 66, 133);
+    border: orange 5px solid;
+    background-color: rgb(216, 242, 250);
+}
+
+button {
+    all: unset;
+}
+
+.icon-upload {
+    font-size: 40px;
+
+    margin-left: 17px;
+
+    position: relative;
+    top: 9px;
+    background-color: crimson;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.icon-upload:hover {
+    font-size: 43px;
+    transition: 0.2s;
+    color: rgb(160, 250, 205);
+}
+
+.ali {
+    color: red;
+}
+
+/* for javascript */
+
+.dn {
+    display: none;
+}
+
+.icon-heart {
+    font-size: 23px;
+    color: rgb(255, 102, 102);
+}
+
+.icon-heart:hover {
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.finish {
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+}
+.sowe {
+    opacity: 1;
+    color: yellow;
+}
